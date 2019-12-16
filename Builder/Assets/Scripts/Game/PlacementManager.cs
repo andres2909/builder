@@ -5,8 +5,7 @@ using UnityEngine;
 
 public class PlacementManager : MonoBehaviour
 {
-    [SerializeField]
-    private GameObject _placeableObjectPrefab;
+    public GameObject _placeableObjectPrefab;
 
     private GameObject currentPlaceableObject;
     private float mouseWheelRotation;
